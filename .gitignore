@@ -2,7 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # C extensions
 *.so
 
@@ -103,7 +110,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -191,12 +197,6 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # Project specific
 debug_env.py
 test_models.py
@@ -248,4 +248,4 @@ docker_manager.ps1
 # Large files that shouldn't be in git
 *.zip
 *.tar.gz
-*.rar.
+*.rar
