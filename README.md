@@ -133,3 +133,16 @@ voice-assistant-fastapi
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+
+
+<!-- # .env Environment:
+
+API_KEY=your_api_key_here
+# STT_SERVICE_URL=https://api.stt.service.url
+LANGUAGE=de
+SILENCE_TIMEOUT=7
+STT_TIMEOUT=7
+DEBUG=False
+APP_NAME=Voice Assistant
+USE_WHISPER=true
+GROQ_API_KEY= Your API KEY Here -->
