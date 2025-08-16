@@ -3,7 +3,7 @@ services:
     build: .
     container_name: voice-assistant-app
     ports:
-      - "8000:8000"
+      - "8060:8060"
     env_file:
       - .env
     volumes:
