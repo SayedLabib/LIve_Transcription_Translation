@@ -21,7 +21,7 @@ class GroqTranslationService:
         self.api_url = "https://api.groq.com/openai/v1/chat/completions"
         
         # Default to Llama 3 70B for best context-aware translations
-        self.model = "mistral-saba-24b"
+        self.model = "meta-llama/llama-4-scout-17b-16e-instruct"
         
         # Store translation history for better context in ongoing conversations
         self.translation_history = {}
