@@ -1,9 +1,8 @@
-# Voice Assistant with Speech-to-Text and Text-to-Speech
+# A live Transcription and Translation app with Speech-to-Text ability
 
-A lightweight industry-focused voice assistant built with FastAPI that:
+A lightweight industry-focused Live transcription and translation built with FastAPI that:
 - Converts speech to German text (from any language)
 - Uses contextual translation with Groq AI for more natural translations
-- Reads the generated text back with text-to-speech
 
 ## Features
 
